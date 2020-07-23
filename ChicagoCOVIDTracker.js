@@ -6,7 +6,8 @@ Module.register('ChicagoCOVIDTracker', {
 
 	// Override dom generator.
 	getDom: function () {
-		var wrapper = document.createElement('div');
+        Log.info('info');
+        var wrapper = document.createElement('div');
 		wrapper.innerHTML = this.config.text;
 		return wrapper;
 	},
